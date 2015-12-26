@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/myCss.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5  elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,34 +18,13 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
-<!-- NAVIGATION ANFANG -->
-<header class="navbar navbar-default">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="../index.html">COMPUTERSPITAL</a>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="../index.html">aktionen <span class="sr-only">(current)</span></a></li>
-                <li><a href="produkte&leistung.html">produkte & leistungen</a></li>
-                <li><a href="partner.html">partner</a></li>
-                <li><a href="kontakt.html">kontakt</a></li>
-            </ul>
-        </div>
-    </div>
-</header>
-<!-- NAVIGATION ENDE -->
+<body data-offset-top="40">
+<?php
+include ('navi.html')
+?>
 
 <!-- AKTIONEN ANFANG -->
-<div class="container">
+<div class="container container-fluid" >
     <h1>Computerspital</h1>
 
     <section class="row">

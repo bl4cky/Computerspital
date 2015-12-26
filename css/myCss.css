@@ -1,7 +1,23 @@
+
+body{
+
+}
+
+.affix + .container{
+    padding-top: 50px;
+}
+#myNav{
+  width:100%;
+    top:0;
+    z-index: 10;
+    margin:0px;
+}
+
+
 .myHeader{
     padding-bottom: 9px;
-    margin: 20px 0 10px;
     border-bottom: none;
+    margin:0px;
 }
 
 #map-container{
