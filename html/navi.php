@@ -20,7 +20,7 @@
         </div>
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="nav navbar-nav">
-                <li class="<?php if($currentPage == aktionen){echo 'active';} ?>"> <a href="aktionen.php">aktionen <span class="sr-only">(current)</span></a></li>
+                <li class="<?php if($currentPage == aktionen){echo 'active';} ?>"> <a href="../aktionen.php">aktionen <span class="sr-only">(current)</span></a></li>
                 <li class="<?php if($currentPage == produkte&leistung){echo 'active';} ?>"> <a href="produkte&leistung.php">produkte & leistungen</a></li>
                 <li class="<?php if($currentPage == partner){echo 'active';} ?>"> <a href="partner.php">partner</a></li>
                 <li class="<?php if($currentPage == kontakt){echo 'active';} ?>"> <a href="kontakt.php">kontakt</a></li>
