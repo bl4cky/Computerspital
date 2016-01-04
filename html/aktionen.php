@@ -21,7 +21,7 @@
 <body data-offset-top="40">
 <?php
 $currentPage="aktionen";
-include ('navi.html')
+include('navi.php')
 ?>
 
 <!-- AKTIONEN ANFANG -->

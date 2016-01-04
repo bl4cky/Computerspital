@@ -22,7 +22,7 @@
 
 <?php
 $currentPage="kontakt";
-include ('navi.html');
+include('navi.php');
 ?>
 
 <div class="container">
