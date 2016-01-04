@@ -21,6 +21,7 @@
 <body>
 
 <?php
+$currentPage="kontakt";
 include ('navi.html');
 ?>
 

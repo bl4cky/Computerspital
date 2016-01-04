@@ -20,6 +20,7 @@
 </head>
 <body data-offset-top="40">
 <?php
+$currentPage="aktionen";
 include ('navi.html')
 ?>
 
@@ -59,7 +60,9 @@ include ('navi.html')
     </div>
 </div><!-- ende container -->
 
-
+<?php
+echo basename(__FILE__);
+?>
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

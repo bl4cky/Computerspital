@@ -6,7 +6,7 @@
 <!-- HEADER ENDE -->
 
 <!-- NAVIGATION ANFANG -->
-<nav id="myNav" data-spy="affix" data-offset-top="98" class="navbar navbar-default" >
+<nav id="myNav" data-spy="affix" data-offset-top="98" class="navbar navbar-default navbar-inverse" >
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
@@ -20,12 +20,14 @@
         </div>
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="nav navbar-nav">
-                <li><a href="aktionen.php">aktionen <span class="sr-only">(current)</span></a></li>
-                <li><a href="produkte&leistung.html">produkte & leistungen</a></li>
-                <li><a href="partner.html">partner</a></li>
-                <li class="active"><a href="kontakt.html">kontakt</a></li>
+                <li class="<?php if($currentPage == aktionen){echo 'active';} ?>"><a href="aktionen.php">aktionen <span class="sr-only">(current)</span></a></li>
+                <li class="<?php if($currentPage == produkte&leistung){echo 'active';} ?>"><a href="produkte&leistung.html">produkte & leistungen</a></li>
+                <li class="<?php if($currentPage == partner){echo 'active';} ?>"><a href="partner.html">partner</a></li>
+                <li class="<?php if($currentPage == kontakt){echo 'active';} ?>"><a href="kontakt.php">kontakt</a></li>
             </ul>
         </div>
     </div>
 </nav>
+
+
 <!-- NAVIGATION ENDE -->
