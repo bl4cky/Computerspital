@@ -1,3 +1,9 @@
+<?php
+$path = realpath(dirname(__FILE__)) . "/";
+echo "$path";
+ini_set('include_path', './' . PATH_SEPARATOR . "./Computerspital/". PATH_SEPARATOR . ini_get('include_path'))
+
+?>
 <!-- HEADER ANFANG -->
 <div class="myHeader jumbotron">
     <img src="../images/logo-computerspital.jpg">
