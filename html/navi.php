@@ -16,11 +16,11 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/Computerspital/aktionen.php">Computerspital</a>
+            <a class="navbar-brand" href="/Computerspital/index.php">Computerspital</a>
         </div>
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="nav navbar-nav">
-                <li class="<?php if($currentPage == aktionen){echo 'active';} ?>"> <a href="/Computerspital/aktionen.php">aktionen <span class="sr-only">(current)</span></a></li>
+                <li class="<?php if($currentPage == aktionen){echo 'active';} ?>"> <a href="/Computerspital/index.php">aktionen <span class="sr-only">(current)</span></a></li>
                 <li class="<?php if($currentPage == produkte&leistung){echo 'active';} ?>"> <a href="/Computerspital/html/produkte&leistung.php">produkte & leistungen</a></li>
                 <li class="<?php if($currentPage == partner){echo 'active';} ?>"> <a href="/Computerspital/html/partner.php">partner</a></li>
                 <li class="<?php if($currentPage == kontakt){echo 'active';} ?>"> <a href="/Computerspital/html/kontakt.php">kontakt</a></li>
