@@ -1,12 +1,6 @@
-<?php
-$path = realpath(dirname(__FILE__)) . "/";
-echo "$path";
-ini_set('include_path', './' . PATH_SEPARATOR . "./Computerspital/". PATH_SEPARATOR . ini_get('include_path'))
-
-?>
 <!-- HEADER ANFANG -->
 <div class="myHeader jumbotron">
-    <img src="../images/logo-computerspital.jpg">
+    <img src="/Computerspital/images/logo-computerspital.jpg">
     <span>Für uns gibt es keine Probleme, nur Lösungen</span>
 </div>
 <!-- HEADER ENDE -->
@@ -22,14 +16,14 @@ ini_set('include_path', './' . PATH_SEPARATOR . "./Computerspital/". PATH_SEPARA
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="../index.html">Computerspital</a>
+            <a class="navbar-brand" href="/Computerspital/aktionen.php">Computerspital</a>
         </div>
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="nav navbar-nav">
-                <li class="<?php if($currentPage == aktionen){echo 'active';} ?>"> <a href="../aktionen.php">aktionen <span class="sr-only">(current)</span></a></li>
-                <li class="<?php if($currentPage == produkte&leistung){echo 'active';} ?>"> <a href="produkte&leistung.php">produkte & leistungen</a></li>
-                <li class="<?php if($currentPage == partner){echo 'active';} ?>"> <a href="partner.php">partner</a></li>
-                <li class="<?php if($currentPage == kontakt){echo 'active';} ?>"> <a href="kontakt.php">kontakt</a></li>
+                <li class="<?php if($currentPage == aktionen){echo 'active';} ?>"> <a href="/Computerspital/aktionen.php">aktionen <span class="sr-only">(current)</span></a></li>
+                <li class="<?php if($currentPage == produkte&leistung){echo 'active';} ?>"> <a href="/Computerspital/html/produkte&leistung.php">produkte & leistungen</a></li>
+                <li class="<?php if($currentPage == partner){echo 'active';} ?>"> <a href="/Computerspital/html/partner.php">partner</a></li>
+                <li class="<?php if($currentPage == kontakt){echo 'active';} ?>"> <a href="/Computerspital/html/kontakt.php">kontakt</a></li>
             </ul>
         </div>
     </div>
