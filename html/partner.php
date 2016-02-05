@@ -18,8 +18,8 @@
 </head>
 <body>
 <?php
-$currentPage="partner";
-require_once("navi.php");
+    $currentPage="partner";
+    require_once("navi.php");
 ?>
 
 

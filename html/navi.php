@@ -20,10 +20,10 @@
         </div>
         <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="nav navbar-nav">
-                <li class="<?php if($currentPage == aktionen){echo 'active';} ?>"> <a href="/Computerspital/index.php">aktionen <span class="sr-only">(current)</span></a></li>
-                <li class="<?php if($currentPage == produkte&leistung){echo 'active';} ?>"> <a href="/Computerspital/html/produkte&leistung.php">produkte & leistungen</a></li>
-                <li class="<?php if($currentPage == partner){echo 'active';} ?>"> <a href="/Computerspital/html/partner.php">partner</a></li>
-                <li class="<?php if($currentPage == kontakt){echo 'active';} ?>"> <a href="/Computerspital/html/kontakt.php">kontakt</a></li>
+                <li class="<?php if($currentPage == 'aktionen'){echo 'active';} ?>"> <a href="/Computerspital/index.php">aktionen <span class="sr-only">(current)</span></a></li>
+                <li class="<?php if($currentPage == 'produkteUndLeistung'){echo 'active';} ?>"> <a href="/Computerspital/html/produkteUndLeistung.php">produkte & leistungen</a></li>
+                <li class="<?php if($currentPage == 'partner'){echo 'active';} ?>"> <a href="/Computerspital/html/partner.php">partner</a></li>
+                <li class="<?php if($currentPage == 'kontakt'){echo 'active';} ?>"> <a href="/Computerspital/html/kontakt.php">kontakt</a></li>
             </ul>
         </div>
     </div>
