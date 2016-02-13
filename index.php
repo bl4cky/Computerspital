@@ -18,15 +18,16 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+
 <body data-offset-top="40">
 <?php
 $currentPage="aktionen";
 include('./html/navi.php')
 ?>
+
+
+
 <div>
-
-
-
 <!-- Header Carousel -->
 <header id="myCarousel" class="carousel slide">
     <!-- Indicators -->
